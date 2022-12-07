@@ -1,0 +1,7 @@
+node_modules
+elasticDb
+.env
+web-page.pdf
+package-lock.json
+yarn.lock
+yarn-error.log

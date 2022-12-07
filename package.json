@@ -1,0 +1,26 @@
+{
+  "name": "webpage-conversion-to-pdf",
+  "version": "0.0.1",
+  "description": "This is a simple project for converting webpage to pdf, using url",
+  "main": "index.js",
+  "author": "Kuldeep",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js "
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "http": "^0.0.1-security",
+    "joi": "^17.7.0",
+    "path": "^0.12.7",
+    "puppeteer": "^19.3.0"
+  }
+}
